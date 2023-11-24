@@ -8,6 +8,7 @@ function App()
   return (
 <>
     <div className={sdcss.main}>
+    <div className={sdcss.lnmlogo}></div>
     <h1 className={sdcss.heading}>Student Details</h1>
     <div className={sdcss.container1}>
       <div className={sdcss.image}>Image</div>

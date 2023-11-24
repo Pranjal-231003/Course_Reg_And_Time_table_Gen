@@ -1,7 +1,7 @@
 .main 
 {
     background-image: url('../../../public/images/Group 39578largebg.svg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -11,6 +11,16 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-top: 80px;
+}
+
+.lnmlogo{
+    width:175vh;
+    height: 35px;
+    background-image: url('../../../public/images/logo_lnm.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .heading 
