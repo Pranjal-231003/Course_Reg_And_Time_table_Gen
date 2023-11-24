@@ -2,11 +2,12 @@ import React from 'react';
 import sdcss from './StudentDetails.module.css'
 import CourseCard from '../../components/CourseCard/CourseCard';
 import course from '../../Data/CourseDetails';
+// import imgpath from "../../../public/images/Group 39578largebg.svg";
 function App()
 {
   return (
 <>
-   <div className={sdcss.main}>
+    <div className={sdcss.main}>
     <h1 className={sdcss.heading}>Student Details</h1>
     <div className={sdcss.container1}>
       <div className={sdcss.image}>Image</div>
