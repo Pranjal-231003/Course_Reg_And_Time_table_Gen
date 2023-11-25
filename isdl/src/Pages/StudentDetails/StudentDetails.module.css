@@ -1,6 +1,6 @@
 .main 
 {
-    background-image: url('../../../public/images/Group 39578largebg.svg');
+    background-image: url('../../images/Group 39578largebg.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 .lnmlogo{
     width:175vh;
     height: 35px;
-    background-image: url('../../../public/images/logo_lnm.png');
+    background-image: url('../../images/Group 48logo_lnm1.svg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
@@ -48,6 +48,7 @@
     height: 225px;
     border-radius: 100%;
     background-color: white;
+    /* background-image: url('../../../public/images/image_3.png'); */
 }
 
 .content 

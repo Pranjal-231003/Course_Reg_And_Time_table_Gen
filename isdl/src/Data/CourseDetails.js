@@ -62,6 +62,14 @@ const course=[
         heading2: 'ABCD',
         para1: 'Credits-4'
     },
+    {
+        id: 9,
+        image: '',
+        heading1: 'Sex Education',
+        heading2: 'Anukriti Bansal',
+        para1: 'Credits-69'
+    },
+    
 ]
 
 
