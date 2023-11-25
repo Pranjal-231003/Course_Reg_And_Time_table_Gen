@@ -1,5 +1,5 @@
 .main{
-    background-image: url('../../../public/images/Group 39577background.svg');
+    background-image: url('../../images/Group 39577background1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,14 +20,14 @@
 .lnmlogo{
     width:170vh;
     height: 35px;
-    background-image: url('../../../public/images/logo_lnm.png');
+    background-image: url('../../images/Group 48logo_lnm1.svg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
 }
 
 .img{
-    background-image: url('../../../public/images/image 2lnm_img.png');
+    background-image: url('../../images/image 2lnm_img.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
