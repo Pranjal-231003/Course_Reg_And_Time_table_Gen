@@ -2,9 +2,25 @@
 {
     position: relative;
     height: auto;
-    width: auto;
-    margin: 20px 0px;
+    width: 55vh;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Poppins","sans-serif";
+    color:white;
+    /* box-sizing: border-box; */
+    margin: 30px 0;
+    padding: 10px 15px 10px 65px;
+
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+
+    position: relative;
 }
 
 .image

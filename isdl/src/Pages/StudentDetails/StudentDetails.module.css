@@ -52,9 +52,14 @@
 
 .content 
 {
-    width: 783px;
-    height: 440px;
-    background-color: #C7C7C7;
+    width: 100vh;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 3px solid rgba(255, 255, 255, 0.15);
     border-radius: 15px;
 }
 
