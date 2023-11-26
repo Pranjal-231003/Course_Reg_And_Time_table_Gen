@@ -1,0 +1,72 @@
+.main 
+{
+    background-image: url('../../images/Group 39578largebg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.lnmlogo{
+    width:175vh;
+    height: 35px;
+    background-image: url('../../images/Group 48logo_lnm1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.heading 
+{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.heading1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+.container1 
+{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tick{
+    top: 50px;
+    left: 440px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.tickImg{
+    height: 60%;
+    width: 60%;
+}

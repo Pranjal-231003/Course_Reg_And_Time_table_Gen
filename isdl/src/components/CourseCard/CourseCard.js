@@ -1,6 +1,6 @@
 import React from 'react';
 import CardCss from './CourseCard.module.css';
-import tickImg from '../../images/Vector.svg'
+
 function CourseCard(props)
 {
   return (
@@ -16,9 +16,9 @@ function CourseCard(props)
       <h1 className={CardCss.heading2}>{props.heading2}</h1>
          <p className={CardCss.para1}>{props.para1}</p>
       </div>
-      <div className={CardCss.tick}>
+      {/* <div className={CardCss.tick}>
       <img className={CardCss.tickImg} src={tickImg} />
-     </div>
+     </div> */}
      </div>
      
 </>
