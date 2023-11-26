@@ -14,7 +14,7 @@ function App() {
           <div className={sdcss.image}>
             <img src={ImgUrl} alt="Student_Image" />
           </div>
-          <div className={sdcss.content}>content</div>
+          <div className={sdcss.content}>This Project is done by great great peeps</div>
         </div>
 
         <div className={sdcss.container2}>
@@ -24,7 +24,7 @@ function App() {
               <div key={item.id}>
                 <CourseCard image={item.image} heading1={item.heading1} heading2={item.heading2} para1={item.para1}/>
               </div>
-              
+
             ))}
           </div>
         </div>

@@ -67,8 +67,8 @@ const course=[
     {
         id: 9,
         image: instructorImg,
-        heading1: 'Sex Education',
-        heading2: 'Anukriti Bansal',
+        heading1: 'Pokemon-Go',
+        heading2: 'Vaibhav Khamesra',
         para1: 'Credits-69'
     },
     
