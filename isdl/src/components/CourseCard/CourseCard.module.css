@@ -12,13 +12,15 @@
     /* box-sizing: border-box; */
     margin: 30px 0;
     padding: 10px 15px 10px 65px;
+    border: 2px solid #6DAFDE;
+   border-radius: 15px;
 
     background: rgba(255, 255, 255, 0.09);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    border: 3px solid rgba(255, 255, 255, 0.15);
+    /* border: 3px solid rgba(255, 255, 255, 0.15); */
 
     position: relative;
 }
@@ -33,17 +35,17 @@
     top: 16px;
     left: -80px;
     background-color: white;
+    
 }
 
 .content 
 {
     width: 491px;
     height: 191px;
-   border: 2px solid #6DAFDE;
-   border-radius: 15px;
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
 }
 
 .cardDiv 
@@ -62,14 +64,36 @@
 }
 .heading2
 {
-   color: white;
+   color: #FFFFFF;
    margin: 0px;
+   font-size: 1.25rem;
   
 }
 
 .para1 
 {
-    color: white;
-  
+    color: #FFFFFF;
+    font-size: 0.75rem;
 }
 
+.tick{
+    top: 50px;
+    left: 440px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.tickImg{
+    height: 60%;
+    width: 60%;
+}

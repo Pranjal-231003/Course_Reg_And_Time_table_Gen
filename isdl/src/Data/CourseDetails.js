@@ -1,7 +1,9 @@
+import instructorImg from '../images/Frame 42.svg'
+
 const course=[
     {
         id: 1,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -9,7 +11,7 @@ const course=[
 
     {
         id: 2,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -17,7 +19,7 @@ const course=[
 
     {
         id: 3,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -25,7 +27,7 @@ const course=[
 
     {
         id: 4,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -33,7 +35,7 @@ const course=[
 
     {
         id: 5,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -41,7 +43,7 @@ const course=[
 
     {
         id: 6,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -49,7 +51,7 @@ const course=[
 
     {
         id: 7,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
@@ -57,14 +59,14 @@ const course=[
 
     {
         id: 8,
-        image: '',
+        image: instructorImg,
         heading1: 'DSA',
         heading2: 'ABCD',
         para1: 'Credits-4'
     },
     {
         id: 9,
-        image: '',
+        image: instructorImg,
         heading1: 'Sex Education',
         heading2: 'Anukriti Bansal',
         para1: 'Credits-69'

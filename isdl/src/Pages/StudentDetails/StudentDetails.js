@@ -22,8 +22,9 @@ function App() {
           <div className={sdcss.cardDiv}>
             {course.map((item) => (
               <div key={item.id}>
-                <CourseCard heading1={item.heading1} />
+                <CourseCard image={item.image} heading1={item.heading1} heading2={item.heading2} para1={item.para1}/>
               </div>
+              
             ))}
           </div>
         </div>
