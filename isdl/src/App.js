@@ -7,10 +7,10 @@ function App()
 {
   return (
 <>
-{/* <StudentDetails /> */}
-<CourseDetails />
+{/* <StudentDetails />  */}
+{/* <CourseDetails /> */}
 {/* <LandingPage/> */}
-{/* <AdminPage/> */}
+<AdminPage/>
 </>
   );
 }

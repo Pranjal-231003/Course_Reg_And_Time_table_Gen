@@ -26,6 +26,10 @@ function CoursePage() {
   return (
     <>
       <div className={CourseCss.main}>
+        <div className={CourseCss.navbar}>
+          <div className={CourseCss.lnmlogo}></div>
+          <div className={CourseCss.develop}>Developed By</div>
+        </div>
         <h1 className={CourseCss.heading}>Courses Offered</h1>
         <h1 className={CourseCss.heading1}>Core Courses</h1>
         <div className={CourseCss.container1}>

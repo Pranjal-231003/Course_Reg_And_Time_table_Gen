@@ -9,7 +9,10 @@ function App()
 <>
   <div className={apcss.main}>
    
+  <div className={apcss.navbar}>
       <div className={apcss.lnmlogo}></div>
+      <div className={apcss.develop}>Developed By</div>
+  </div>
      
     
    <div> <h1 className={apcss.admin}>Admin</h1> </div>

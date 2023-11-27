@@ -21,14 +21,19 @@
 
    
 }
+.navbar{
+  width:180vh;
+  display: flex;
+  color: white;
+}
 
 .lnmlogo{
-    width:175vh;
-    height: 35px;
-    background-image: url('../../images/Group 48logo_lnm1.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: left;
+  width:170vh;
+  height: 35px;
+  background-image: url('../../images/Group 48logo_lnm1.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 
@@ -36,10 +41,7 @@
 .content 
 {
     width: 783px;
-    height: 440px;
-    
-
-  
+    height: 440px;  
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -52,32 +54,30 @@
 .admin
 {
     color: #FFF;
-
 text-align: center;
 font-family: Arial;
 font-size: 57px;
 font-style: normal;
 font-weight: 1200;
 line-height: 96px;
-width: 611px;
-height:96 px;
+width: 100%;
+height:10%;
 margin-top:63px 399px 1681px 399px ;
 
 }
 
 .dsa
-{width: 611px;
-height:96 px;
-
-    color: #FFF;
+{
+  width: 100%;
+  height:1%;
+  color: #FFF;
 
 text-align: center;
 font-family: Arial;
 font-size: 40px;
 font-style: normal;
 font-weight: 1200;
-line-height: 96px; /* 240% */
-margin-top:77px;
+/* line-height: 96px; 240% */
 
 }
 
@@ -86,6 +86,7 @@ margin-top:77px;
    display:flex;
    flex-direction:row;
    font-family: Arial;
+   padding-top: 10vh;
 }
   
 .addcourse{

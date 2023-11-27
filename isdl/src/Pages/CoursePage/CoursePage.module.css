@@ -13,16 +13,20 @@
     padding: 20px;
     padding-top: 80px;
 }
+.navbar{
+    width:180vh;
+    display: flex;
+    color: white;
+}
 
 .lnmlogo{
-    width:175vh;
+    width:170vh;
     height: 35px;
     background-image: url('../../images/Group 48logo_lnm1.svg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
 }
-
 .heading 
 {
     color: white;
