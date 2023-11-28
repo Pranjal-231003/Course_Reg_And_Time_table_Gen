@@ -1,0 +1,131 @@
+.main{
+    background-image: url('../../images/Group 39577background1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+.lnmlogo{
+    width:170vh;
+    height: 35px;
+    background-image: url('../../images/Group 48logo_lnm1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.navbar{
+    width:180vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px;
+    position: absolute;
+}
+
+.lnmphoto {
+    align-self: flex-end;
+}
+.navLogo {
+    display: flex;
+    height: 5%;
+}
+
+.developed {
+    width: 10%;
+}
+.develop{
+    filter: blur(1px);
+}
+.container1{
+    z-index: 9;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.lnmphoto{
+    width:80vh;
+    height: 430px;
+    background-image: url('../../images/image\ 2lnm_img.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    margin-top: 50px;
+}
+.logincontainer{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift effect */
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+  
+  /* Style for the username and password input fields */
+.logininput {
+    width: 100%;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #C50248;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+  
+  /* Style for the login button */
+.loginbutton {
+    width: 50%; /* Adjust the width as needed */
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+    background-color: #C50248; /* Green background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.loginbutton::after {
+    content: '\2192'; /* Unicode character for right arrow */   
+}
+
+.loginbutton:hover {
+    background-color: #C50240; /* Darker green on hover */
+}
+/* .navbar{
+    width:180vh;
+    display: flex;
+}
+
+.lnmlogo{
+    width:170vh;
+    height: 35px;
+    background-image: url('../../images/Group 48logo_lnm1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.img{
+    background-image: url('../../images/image 2lnm_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
