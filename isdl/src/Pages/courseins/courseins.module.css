@@ -1,0 +1,139 @@
+.main 
+{
+    background-image: url('../../images/Group 39577background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.lnmlogo{
+    width:175vh;
+    height: 35px;
+    background-image: url('../../images/Group 48logo_lnm1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.heading 
+{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+/* .container1 
+{
+    width: 80%;
+    height: 70vh;
+    /* border: 2px solid white; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */ 
+
+.image 
+{
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+    background-color: white;
+    /* background-image: url('../../../public/images/image_3.png'); */
+}
+
+.content 
+{
+    width: 100vh;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+}
+
+.container2
+{
+    width: 80%;
+    min-height: 90vh;
+    height: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardDiv 
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.div1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+     border-radius: 86.35px;
+    
+border: 1px solid #FF3D00;
+
+background-color: rgba(197, 2, 73, 0.8);
+box-shadow : 0px 4.62591px 18.50365px 0px rgba(74, 58, 255, 0.28);
+display: flex;
+width: 300px;
+height: 44px;
+
+align-items:center;
+
+padding: 37.6px 61.1px;
+  color: white;
+
+
+/* Green */
+
+  
+display:flex;
+    flex-direction:row;
+    justify-content:center;
+  text-decoration: none;
+  display: flex;
+  font-size: 15px;
+  border-width : 0;
+
+  margin-top:20px;
+
+
+}
+
+.arrow
+{
+    font-size: 15px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        
+        padding: 5px;
+        display: inline-block;
+      
+      
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      

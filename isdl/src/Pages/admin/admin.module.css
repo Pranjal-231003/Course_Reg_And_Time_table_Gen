@@ -1,0 +1,110 @@
+
+.main{
+    background-image: url('../../images/Group 39578largebg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.img{
+    background-image: url('../../images/image 2lnm_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    
+
+   
+.lnmlogo{
+    width:175vh;
+    height: 35px;
+    background-image: url('../../images/Group 48logo_lnm1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.admin
+{
+    color: #FFF;
+
+text-align: center;
+font-family: Arial;
+font-size: 57px;
+font-style: normal;
+font-weight: 1200;
+line-height: 96px;
+width: 611px;
+height:96 px;
+margin-top:63px 399px 1681px 399px ;
+
+}
+
+
+
+
+.maindiv
+
+{
+    flex-direction:row;
+    justify-content:center;
+    margin-top:20px;
+   display:flex;
+   flex-direction:row;
+   font-family: Arial;
+}
+  
+
+.subject1
+{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 491px;
+height: 191px;
+flex-shrink: 0;
+border-radius: 21px;
+border: 4px solid #6DAFDE;
+background: rgba(183, 197, 254, 0.06);
+backdrop-filter: blur(16.61797332763672px);
+}
+
+
+.subject2
+{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 491px;
+height: 191px;
+flex-shrink: 0;
+border-radius: 21px;
+border: 4px solid #6DAFDE;
+background: rgba(183, 197, 254, 0.06);
+backdrop-filter: blur(16.61797332763672px);
+}
+
+.arrow
+{
+    font-size: 15px;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        width:77px;
+        height:77px;
+        padding: 57px 24px 57px 390px;
+        display: inline-block;
+      
+      
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }

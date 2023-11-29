@@ -1,6 +1,6 @@
 import React from 'react';
 import lpcss from './LoginPage.module.css'
-
+import arrow from '../../images/Iconarrow.svg'
 function App()
 {
   return (
@@ -17,9 +17,11 @@ function App()
     </div>
     <div className={lpcss.container1}>
         <div className={lpcss.logincontainer}>
-            <div className={lpcss.logininput}></div>
-            <div className={lpcss.logininput}></div>
-            <div className={lpcss.loginbutton}></div>
+            <input className={lpcss.logininput} placeholder='USERNAME'></input>
+            <input className={lpcss.logininput} placeholder='PASSWORD'></input>
+            <div className={lpcss.loginbutton}>
+              <img src={arrow} className= {lpcss.arrow1} />
+            </div>
         </div>
         
     </div>
