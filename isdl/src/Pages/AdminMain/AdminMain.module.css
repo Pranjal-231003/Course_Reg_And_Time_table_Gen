@@ -22,3 +22,40 @@
     background-repeat: no-repeat;
     background-position: left;
 }
+
+.heading 
+{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.heading1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+.container1 
+{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.develop{
+    color: white;
+
+}
+
+.navbar{
+    width:180vh;
+    display: flex;
+    color: white;
+}

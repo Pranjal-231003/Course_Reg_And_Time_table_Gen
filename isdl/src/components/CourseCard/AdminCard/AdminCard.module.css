@@ -1,0 +1,67 @@
+.cardDiv 
+{
+    width: 100%;
+
+    height: auto;
+}
+
+
+.heading1 
+{
+   color: white;
+   font-size: 2rem;
+   margin: 0px;
+}
+.heading2
+{
+   color: #FFFFFF;
+   margin: 0px;
+   font-size: 1.25rem;
+  
+}
+
+.para1 
+{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+}
+
+.main 
+{
+    position: relative;
+    height: auto;
+    width: 55vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Poppins","sans-serif";
+    color:white;
+    /* box-sizing: border-box; */
+    margin: 30px 0;
+    padding: 10px 15px 10px 65px;
+    border: 2px solid #6DAFDE;
+   border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    /* border: 3px solid rgba(255, 255, 255, 0.15); */
+
+    position: relative;
+}
+
+
+
+.content 
+{
+    width: 491px;
+    height: 191px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
