@@ -3,10 +3,7 @@ import StudentDetails from './Pages/StudentDetails/StudentDetails';
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import AdminPage from "./Pages/AdminPage/AdminPage";
 import AdminLanding from "./Pages/AdminLanding/AdminLanding";
-import admin from "./Pages/admin/admin";
-import courseins from "./Pages/courseins/courseins";
-import courseins2 from "./Pages/courseins2/courseins2";
-import coursesub from "./Pages/coursesub/coursesub";
+import Admin from "./Pages/Admin/Admin.js"
 import LoginPage from "./Pages/LoginPage/LoginPage"
 function App()
 {
